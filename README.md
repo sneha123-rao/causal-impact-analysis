@@ -85,6 +85,19 @@ This is the same logic used in **Difference-in-Differences** econometric models,
 With a p-value of 0.001, we **reject the null hypothesis** — there is only a 0.1% probability that the observed 9.7% sales lift occurred by chance. The CausalImpact model, controlling for competitor sales and market-wide trends, attributes the full incremental effect of ~101 units per day to the Super Bowl campaign.
 
 ---
+## 📊 Visualizations
+
+### Raw Sales Data — Before and After Campaign
+![Raw Sales Data](raw_sales_data.png)
+
+### Actual vs Counterfactual Sales
+![Actual vs Counterfactual](actual_vs_counterfactual.png)
+
+### Daily Incremental Effect
+![Incremental Effect](incremental_effect.png)
+
+### CausalImpact 3-Panel Output
+![CausalImpact Plot](causal_impact_plot.png)
 
 ##  Business Recommendations
 
